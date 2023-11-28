@@ -1,0 +1,43 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login-container">
+        <form class="login-form">
+            <h2 id="formHeader">Login form</h2>
+            <label for="username">UserId</label>
+            <input type="text" id="userId" name="username" placeholder="Enter your username" required>
+
+            <label for="password">Title</label>
+            <input type="password" id="title" name="password" placeholder="Enter your password" required>
+            <label for="username">Body:</label>
+            <input type="text" id="body" name="UserBody" placeholder="Enter your userBody" required>
+            <button id="log-btn" type="submit" onClick="add(event)">Add</button>
+            
+            
+
+          
+        </form>
+
+ <!-- <table>
+            <thead id="header">
+                <th>Userid</th>
+                <th>Title</th>
+                <th>des</th>
+            </thead>
+            <tbody id="userBody"></tbody>
+        </table> 
+        -->
+       
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
+
